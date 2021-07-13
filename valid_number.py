@@ -11,7 +11,7 @@ valid_numbers = []
 for x in numbers:
     if x >= 0:
         valid_numbers.append(x)
-valid_numbers.sort()
+
 print('Valid Numbers = ', valid_numbers)
 
 total = 0
