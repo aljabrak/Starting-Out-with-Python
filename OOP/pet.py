@@ -29,13 +29,13 @@ class Pet:
         return self.__age
 
 def main():
-    name = str(input("Animal Name: "))
-    animal_type = str(input("Animal Type: "))
+    name = input("Animal Name: ")
+    animal_type = input("Animal Type: ")
     age = str(input("Animal Age: "))
 
     pet = Pet(name, animal_type, age)
-    print("Animal name is: ", pet.get_name)
-    print("Animal type is: ", pet.set_animal_type)
-    print("Animal age is: ", pet.get_age)
+    print("Animal name is: ", pet.get_name())
+    print("Animal type is: ", pet.set_animal_type(animal_type))
+    print("Animal age is: ", pet.get_age())
 
 main()
