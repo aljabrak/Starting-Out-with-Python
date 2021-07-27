@@ -34,6 +34,7 @@ def main():
     age = str(input("Animal Age: "))
 
     pet = Pet(name, animal_type, age)
+    print("\n")
     print("Animal name is: ", pet.get_name())
     print("Animal type is: ", pet.set_animal_type(animal_type))
     print("Animal age is: ", pet.get_age())
