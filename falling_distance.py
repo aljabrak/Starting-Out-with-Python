@@ -1,7 +1,7 @@
 # Starting Out with Python (4th Edition).
 # Tony Gaddis.
 # Page 304.
-# Q 13. Prime Number.
+# Q 13. Falling Distance.
 
 g = 9.80665
 
